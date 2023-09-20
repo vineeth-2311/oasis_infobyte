@@ -1,0 +1,382 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+
+#header {
+    background-image: url(https://mcdn.wallpapersafari.com/medium/5/89/IPp9t3.jpg);
+background-position: 0px;
+     background-repeat: no-repeat; 
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+    padding: 20px;
+    align-items: center;
+    -webkit-text-stroke: 1px #000;
+    -moz-text-stroke: 1px #000;
+}
+
+/* Style for the custom-nav */
+.custom-nav {
+    background-color: #333;
+    padding: 10px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Style for the custom-nav-list */
+.custom-nav-list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+    flex-direction: row;
+    background-color: #333;
+    margin: 0;
+}
+
+/* Style for the custom-nav-link */
+.custom-nav-link {
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.custom-nav-li {
+    padding-bottom: 8px;
+    font-size: 16px;
+}
+
+/* Hover effect for custom-nav-link */
+.custom-nav-link:hover {
+    color: #ff5722;
+}
+
+/* Media query for smaller screens */
+@media screen and (max-width: 768px) {
+    .custom-nav {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 10px;
+    }
+
+    .custom-nav-link {
+        margin-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .custom-nav-list {
+        list-style: none;
+        display: flex;
+        padding: 0;
+        flex-direction: column;
+        margin: 0;
+    }
+
+    .custom-nav-li {
+        padding-bottom: 8px;
+        font-size: medium;
+        background-color: #333;
+    }
+}
+
+/* Style for the items-nav */
+.items-nav {
+    background-color: #333;
+    padding: 10px 0px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+}
+
+/* Style for the center class */
+.center {
+    text-align: center;
+    font-size: 45px;
+}
+
+/* Style for the book-now button */
+.book-now {
+    padding: 10px 20px;
+    background-color: #ff5722;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  
+}
+
+/* Hover effect for the book-now button */
+.book-now:hover {
+    background-color: transparent;
+    color: #fff;
+    border: 3px solid #ff5722;
+}
+
+/* Media query for larger screens */
+@media screen and (min-width: 768px) {
+    .book-now {
+        font-size: 25px;
+        padding: 13px 26px;
+    }
+}
+
+
+
+#kids-hair-styles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+#mens-hair-styles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+#beard-styles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+   
+}
+
+#women-styles {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#services {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.hair-style {
+    flex-basis: calc(25% - 20px);
+    margin-bottom: 20px;
+    text-align: center;
+    box-sizing: border-box;
+  }
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+}
+
+
+.style-name {
+    font-size: 16px;
+  }
+  
+  .style-price {
+    font-size: 14px;
+  }
+  
+  img {
+    width: 60%;
+    height: 50%;
+    max-width: 100%;
+    border-radius: 20%;
+  }
+
+
+.services {
+  width: calc(25% - 20px);
+  margin-bottom: 20px;
+  text-align: center; 
+  box-sizing: border-box;
+}
+
+.services img {
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+border-radius: 10px; 
+}
+
+
+.book-button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 14px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+
+.book-button:hover {
+    background-color: #0056b3;
+    color: #000;
+    border: 3px solid #0056b3;
+}
+
+
+@media screen and (min-width: 768px) {
+    .book-button {
+        font-size: 25px;
+        padding: 20px 40px;
+        display: inline-block;
+        background-color: #ff5722;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+}
+
+
+.testimonials {
+    padding: 40px 0;
+    text-align: center;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+}
+
+.review {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 20px 0;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+}
+
+.rating {
+    font-size: 24px;
+    color: #ff9900;
+}
+
+.reviewer {
+    font-weight: bold;
+}
+
+.date {
+    color: #888;
+}
+
+.review-text {
+    margin-top: 10px;
+}
+
+
+.founder {
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.founder {
+    padding: 40px;
+    text-align: center;
+    background-color: #f9f9f9;
+    border-bottom: 1px solid #ddd;
+}
+
+
+.founder p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #393939;
+}
+
+.image-container img{
+    width: 15%;
+    border-radius: 14%;
+}
+
+
+@media (max-width: 767px) {
+    .founder {
+        padding: 20px;
+    }
+
+    .founder p {
+        font-size: 14px;
+    }
+}
+
+.centered-content {
+    text-align: center;
+  }
+  
+  .image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .center {
+    text-align: center;
+  }
+    
+  .image-container h3 {
+    font-size: large; /* Set the font size to small */
+  }
+
+.social-icons {
+    font-size: 24px;
+}
+
+.icon {
+    text-decoration: none;
+    color: #555;
+    margin: 0 10px;
+}
+
+.icon:hover {
+    color: #333;
+}
+
+.center-address {
+    text-align: center;
+    font-size: 20px;
+}
+
+footer {
+    color: black;
+    text-align: center;
+    font-weight: 550;
+    padding: 20px 0;
+}
+
+footer p {
+    font-size: 16px;
+    margin: 0;
+}
